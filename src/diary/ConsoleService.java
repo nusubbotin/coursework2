@@ -7,14 +7,14 @@ import java.time.format.DateTimeParseException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ConsoleService {
+public class ConsoleService  {
     private Diary diary;
 
     public ConsoleService() {
         diary = new Diary();
     }
 
-    public void StartMenu(String[] args) {
+    public void startMenu(String[] args) {
         try (Scanner scanner = new Scanner(System.in).useDelimiter("\n")) {
             label:
             while (true) {

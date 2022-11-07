@@ -13,9 +13,9 @@ public class Task {
     private String header;
     private String description;
 
-    private LocalDateTime dateTime = null;
+    private LocalDateTime dateTime;
 
-    private TaskType taskType = null;
+    private TaskType taskType;
     private RepeatabilityType repeatabilityType;
 
 
